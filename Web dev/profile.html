@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- <link rel="stylesheet" type="text/css" href="styledup.css" /> -->
+        <link rel="stylesheet" href="CSS/style.css">
+        <link
+            rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile</title>
+    </head>
+    <body>
+        <!-- header starts here -->
+
+        <nav >
+            <div class="container">
+                <h2>&Escr;&Mscr;&escr;&dscr;&iscr;&ascr;</h2>
+
+                <div class="search-bar">
+                    <i class="uil uil-search"></i>
+                    <input type="search" placeholder="Search">
+                </div>
+                <div class="profile-image">
+                    <img src="" alt="">
+                </div>
+                <p>Sign out</p>
+            </div>
+        </nav>
+
+        <!-- header section ends Here -->
+    <main>
+        <div class="container">
+
+            <!-- cont one -->
+            <div class="left">
+                <div>
+                    <a class="profile">
+                        <div>
+                            <img id='profile'src="" width="30px" height="30px" style="border-radius: 15px;">
+                        </div>
+                        <div class="handle">
+                            <h4><span id="profileName"></span></h4>
+                           
+                        </div>
+                    </a>
+                </div>
+                <ul>
+                    <li >
+                        <a href="home.html">
+                            <span>
+                                <i class="uil uil-estate"></i>
+                            </span>
+                            <span class="txt">Home</span></a>
+                    </li>
+                    <li>
+                        <a href="profile.html">
+                            <span>
+                                <i class="uil uil-user"></i>
+                            </span><span class="txt">Profile</span></a>
+                    </li>
+                    <li>
+                        <a href="" id="notification">
+                            <span>
+                                <i class="uil uil-bell">
+                                    <small class="notification-count">9+</small>
+                                </i>
+                            </span><span class="txt">Notifications</span></a>
+                        <!-- Notification Popup -->
+                        <div class="notification-popup">
+
+                            <div>
+                                <div class="profile-image">
+                                    <img src="images/profile images/profile1.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Trevor Thomas</b>
+                                    accepted Your Friend request
+                                    <small class="text-muted">2 MINUTES AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-image">
+                                    <img src="images/profile images/profile2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Colin Lubembe</b>
+                                    liked your post
+                                    <small class="text-muted">1 DAY AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-image">
+                                    <img src="images/profile images/profile3.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Lexy Evelyn</b>
+                                    invited you to like their page
+                                    <small class="text-muted">3 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile-image">
+                                    <img src="images/profile images/profile4.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Kato Maxwell</b>
+                                    accepted Your Friend request
+                                    <small class="text-muted">1 WEEK AGO</small>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="messages.html" id="message-notification">
+                            <span>
+                                <i class="uil uil-envelope">
+                                    <small class="notification-count">6</small>
+                                </i>
+                            </span><span class="txt">Messages</span></a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>
+                                <i class="uil uil-users-alt"></i>
+                            </span><span class="txt">Friends and groups</span></a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>
+                                <i class="uil uil-bookmark"></i>
+                            </span><span class="txt">Bookmarks</span></a>
+                    </li>
+                    <li>
+                        <a id="theme">
+                            <span>
+                                <i class="uil uil-palette"></i>
+                            </span><span class="txt">Theme</span></a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="uil uil-setting"></i>
+                        </span><span class="txt">Settings</span></a>
+                </li>
+            </ul>
+        </div>
+    
+    <div class="middle ">
+            <div id="">
+                <h3>Personal Details</h3>
+                <table>
+                    <tr>
+                        <td>Name:
+                        </td>
+                        <td>
+                            <span id="username"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email Address:
+                        </td>
+                        <td>
+                            <span id="email"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Statement:
+                        </td>
+                        <td>
+                            <span id="statement"></span>
+                        </td>
+                    </tr>
+                </table>
+
+                <p>
+                    <strong>Education details</strong>
+                </p>
+
+                <table>
+                    <tr>
+                        <td>
+                            University:
+                        </td>
+                        <td>
+                            <span id="uni"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Secondary:
+                        </td>
+                        <td>
+                            <span id="sec"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Primary:
+                        </td>
+                        <td>
+                            <span id="pri"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Hobbies:
+                        </td>
+                        <td>
+                            <span id="hobby"></span>
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+                    <button onclick="linkTo()">Edit Details</button>
+            </div>
+
+        </div>
+    </div>
+</main>
+    <script>
+        function linkTo() {
+            window.location.href="edit.html";
+        }
+
+        const param1 = localStorage.getItem('NAME');
+        const param2 = localStorage.getItem('EMAIL');
+        const param3 = localStorage.getItem('STATEMENT');
+        const param4 = localStorage.getItem('UNIVERSITY');
+        const param5 = localStorage.getItem('SECONDARY');
+        const param6 = localStorage.getItem('PRIMARY');
+        const param7 = localStorage.getItem('HOBBY');
+
+        document
+            .getElementById('username')
+            .innerHTML = param1;
+
+        document
+            .getElementById('email')
+            .innerHTML = param2;
+        document
+            .getElementById('statement')
+            .innerHTML = param3;
+        document
+            .getElementById('uni')
+            .innerHTML = param4;
+        document
+            .getElementById('sec')
+            .innerHTML = param5;
+        document
+            .getElementById('pri')
+            .innerHTML = param6;
+        document
+            .getElementById('hobby')
+            .innerHTML = param7;
+    </script>
+    <script src="JS/proj.js"></script>
+    <script src="JS/result.js"></script>
+</body>
+</html>

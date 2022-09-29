@@ -1,0 +1,40 @@
+
+button {
+    margin-top: 5px;
+    text-align: center;
+}
+#image {
+    border: 3px solid #8695c3;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+ body > div {
+        border-radius: 15px;
+        margin: auto;
+        margin-top: 30px;
+        width: 70%;
+        /* border: 3px solid #8695c3; */
+        padding: 10px;
+        margin-bottom: 30px;
+        background: linear-gradient(to right,rgba(188, 188, 249, 0.607), rgba(170, 193, 231, 0.942));
+
+    }
+
+    div > img {
+        display: none;
+        height: 95px;
+        width: 100%;
+        border-radius: 55px;
+    }
+    #inputGroupFile03 {
+        display: block;
+    }
+    .heading {
+       text-align: center;
+    }
+    #cancel {
+        background-color: #CD104D;
+       
+    }
+    

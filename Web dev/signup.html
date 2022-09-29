@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/styledup.css" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"/>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--stylesheet  -->
+    <title>Sign up page for Emedia</title>
+    <style>
+      body{
+        background: linear-gradient(to left,rgba(8, 8, 244, 0.572),rgba(255, 255, 255, 0.855));
+      }
+    </style>
+</head>
+
+<body id="body">
+
+  <h2 class="heading">&Escr;&Mscr;&escr;&dscr;&iscr;&ascr;</h2>
+  <p class="heading">Enter your <strong>details</strong> here please</p>
+  <div id="image">
+        <img src="" id='profile'/>
+        <center><span id="text">profile picture here</span></center>
+  </div>
+
+  <div>
+    <form id="form" method="POST" action="home.html">
+        <div class="form-floating mb-3">
+            <input name="name" type="text" class="form-control name" id="name" placeholder="Your name please" required>
+            <label for="floatingInput">Full Name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input name='email' type="email" class="form-control email" id="email" placeholder="name@example.com" required>
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password" required>
+            <label for="floatingPassword">Password</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword2" placeholder="Password" name="password2" style="margin-top: 15px; margin-bottom: 15px;" required>
+            <label for="floatingPassword">Confirm password</label>
+        </div>
+       <p>Please add your profile picture here:</p>
+       <div class="input-group mb-3">
+             <input type="file" class="form-control" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03" aria-label="Upload">
+       </div>
+       <div class="form-group mb-2">
+             <label for="exampleFormControlTextarea1">Personal Statement: </label>
+             <textarea name="statement" class="form-control statement" id="statement" rows="3"></textarea>
+       </div>
+                  
+      <div class="form-group mb-4">
+             <label>Educational Details:</label>
+             <input type="text" class="form-control mb-2 uni" id="university" placeholder="University details..." name="uni">           
+             <input name="sec" type="text" class="form-control mb-2 sec" id="secondary" placeholder="Secondary school details...">
+             <input name="pri" type="text" class="form-control pri" id="primary" placeholder="Primary school details...">
+      </div>       
+      <div class="form-group mb-2">
+             <label for="exampleFormControlTextarea1">Hobbies: </label>
+             <textarea name="statement" class="form-control statement" id="hobby" rows="3"></textarea>
+      </div>       
+      <button type="submit" class="btn btn-primary" onclick = "passValues();" >Complete</button>
+      
+    </form>
+ </div>
+ <script src = "JS/styledup.js"></script>
+
+</body>
+</html>
